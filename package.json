@@ -9,5 +9,12 @@
     "serve": "npm run transpile && npm run start"
   },
   "author": "Nicola Toscan & Marco Bernardi",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "puppeteer-core": "^8.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.36"
+  }
 }
